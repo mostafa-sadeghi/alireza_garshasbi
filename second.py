@@ -94,9 +94,19 @@
 # print(numbers)
 
 
-numbers = [1, 2, 3, 4]
-characters = ['a', 'b']
+# numbers = [1, 2, 3, 4]
+# characters = ['a', 'b']
 
-final_list = [numbers, characters]
-print(final_list)
-print(final_list[1][0])
+# final_list = [numbers, characters]
+# print(final_list)
+# print(final_list[1][0])
+
+# numbers = (1, 2, 3, 4)
+# numbers.append(6) > error
+
+# numbers[0] = 11 > error
+
+# print(type(numbers))
+
+
+# todo dictionary
