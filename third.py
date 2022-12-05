@@ -89,47 +89,76 @@ customer = {
 #     counter += 1
 
 
-customer = {
-    'id': 1,
-    'name': 'ali'
-}
+# customer = {
+#     'id': 1,
+#     'name': 'ali'
+# }
 
 
 # while True:
 #     key = input('enter key or "exit" to exit: ')
 #     if key == "exit":
 #         exit()
-#     # print(customer[key])
-#     print(customer.get(key))
+# print(customer[key])
+# print(customer.get(key))
 
 
-customer = {}
-customers = []
-while True:
-    print('''to enter a customer enter 1.
-    to exit enter 2.
-    to search a customer enter 3
-    to show all customers enter 4
-    ''')
-    entry = input('> ')
-    if entry == '1':
-        while True:
-            entry2 = input('enter "r" to return or "a" to add')
-            if entry2 == "a":
-                name = input('enter a name: ')
-                family = input('enter a family: ')
-                age = input('enter a age: ')
-                customer['name'] = name
-                customer['family'] = family
-                customer['age'] = age
+# customer = {}
+# customers = []
+# while True:
+#     print('''to enter a customer enter 1.
+#     to exit enter 2.
+#     to search a customer enter 3
+#     to show all customers enter 4
+#     ''')
+#     entry = input('> ')
+#     if entry == '1':
+#         while True:
+#             entry2 = input('enter "r" to return or "a" to add')
+#             if entry2 == "a":
+#                 name = input('enter a name: ')
+#                 family = input('enter a family: ')
+#                 age = input('enter a age: ')
+#                 customer = {}
+#                 customer['name'] = name
+#                 customer['family'] = family
+#                 customer['age'] = age
 
-                customers.append(customer)
-            elif entry2 == "r":
-                break
+#                 customers.append(customer)
+#             elif entry2 == "r":
+#                 break
 
-    elif entry == '2':
-        exit()
-    elif entry == '3':
-        pass
-    elif entry == '4':
-        print(customers)
+#     elif entry == '2':
+#         exit()
+#     elif entry == '3':
+#         name = input('enter a name : ')
+#         for customer in customers:
+#             print('****************')
+#             print(customer)
+#             for key in customer.keys():
+#                 if customer.get(key) == name:
+#                     print(f'{name} exists')
+
+#                     break
+
+#     elif entry == '4':
+#         print(customers)
+
+
+# for i in range(5):
+#     pass
+
+# break keyword
+# for i in range(5):
+#     if i == 3:
+#         break
+#     print(i)
+# print('end')
+
+
+# for i in range(5):
+#     if i == 3:
+#         continue
+#     print(i)
+
+# print('end')
