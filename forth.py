@@ -32,8 +32,8 @@
 
 # *args
 
-def mul(*numbers):
-    print(numbers)
+# def mul(*numbers):
+#     print(numbers)
 
 
-print(mul(2, 3, 4))
+# print(mul(2, 3, 4))
