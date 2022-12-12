@@ -92,11 +92,13 @@
 #         b -= 1
 #     return res
 
-def mul(a, b):
-    if b == 1:
-        return a
-    else:
-        return a + mul(a, b-1)
+# def mul(a, b):
+#     if b == 1:
+#         return a
+#     else:
+#         return a + mul(a, b-1)
 
 
-print(mul(2, 3))
+# print(mul(2, 3))
+
+
