@@ -108,7 +108,9 @@ def func():
     total = 0
     for i in range(5):
         total += i
-        return total
+        print(i)
+        print(total)
+    return total
 
 
 print(func())
