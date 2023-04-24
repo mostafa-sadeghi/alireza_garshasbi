@@ -67,24 +67,27 @@ a = 22
 # print('' or 'hello')
 # print('' or 'hello' or 'sssss')
 
-def is_palindromic(s):
-    def to_char(s):
-        s = s.lower()
-        ans = ''
-        for c in s:
-            if c in 'abcdefghijklmnopqrstuvwxyz':
-                ans += c
-        return ans
+# def is_palindromic(s):
+#     def to_char(s):
+#         s = s.lower()
+#         ans = ''
+#         for c in s:
+#             if c in 'abcdefghijklmnopqrstuvwxyz':
+#                 ans += c
+#         return ans
 
-    def is_pal(s):
-        if len(s) <= 1:
-            return True
-        else:
-            return s[0] == s[-1] and is_pal(s[1:-1])
+#     def is_pal(s):
+#         if len(s) <= 1:
+#             return True
+#         else:
+#             return s[0] == s[-1] and is_pal(s[1:-1])
 
-    return is_pal(to_char(s))
+#     return is_pal(to_char(s))
 
 
-x = 'abaaba'
-print(is_palindromic(x))
-print(is_palindromic('abacba'))
+# x = 'abaaba'
+# print(is_palindromic(x))
+# print(is_palindromic('abacba'))
+
+
+    
